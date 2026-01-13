@@ -1,0 +1,30 @@
+What is the definition of server port
+Definition of a Server Port
+A server port acts as a "digital doorway" or "gatekeeper" inside a device. While an IP address identifies the specific building (the computer), the port number identifies the specific office or service inside that building. It ensures that incoming data reaches the correct application, such as a web browser or an email client, rather than being delivered to the wrong program.
+• What is server port range
+The total range of available port numbers is 0 to 65,535. This range is divided into three categories by the Internet Assigned Numbers Authority (IANA):
+
+Well-Known (System) Ports (0–1023): Reserved for core system processes and standardized internet services.
+
+Registered (User) Ports (1024–49,151): Assigned to specific software applications or protocols upon request.
+
+Dynamic (Private/Ephemeral) Ports (49,152–65,535): Used temporarily by client applications for outgoing connections.
+
+
+• How many bits does number above represent
+
+Port numbers are represented as 16-bit unsigned integers.12 The total number of ports (65,536) is derived from the mathematical calculation of 13$2^{16}$, which represents every possible combination of 16 binary bits.14
+
+• State 10 common server port
+
+Port Number	Protocol	Common Service/Usage
+20	TCP	FTP Data: Used for transferring actual file data.
+21	TCP	FTP Control: Used for sending commands and login info.
+22	TCP	SSH: Securely access and manage remote servers.
+23	TCP/UDP	Telnet: Unencrypted text communication (largely legacy).
+25	TCP	SMTP: Sending emails between mail servers.
+53	TCP/UDP	DNS: Translating domain names (google.com) to IP addresses.
+80	TCP	HTTP: Standard, unencrypted web traffic.
+110	TCP	POP3: Used by email clients to retrieve messages from a server.
+143	TCP/UDP	IMAP: Retrieving and managing emails directly on a server.
+443	TCP	HTTPS: Secure, encrypted web traffic.
