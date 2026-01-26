@@ -1,0 +1,99 @@
+Domain Name: DOG.COM
+   Registry Domain ID: 1144359_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.networksolutions.com
+   Registrar URL: http://networksolutions.com
+   Updated Date: 2024-10-15T19:59:24Z
+   Creation Date: 1997-08-14T04:00:00Z
+   Registry Expiry Date: 2032-08-13T04:00:00Z
+   Registrar: Network Solutions, LLC
+   Registrar IANA ID: 2
+   Registrar Abuse Contact Email: domain.operations@web.com
+   Registrar Abuse Contact Phone: +1.8777228662
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Name Server: NS10.DNSMADEEASY.COM
+   Name Server: NS11.DNSMADEEASY.COM
+   Name Server: NS12.DNSMADEEASY.COM
+   Name Server: NS13.DNSMADEEASY.COM
+   Name Server: NS14.DNSMADEEASY.COM
+   Name Server: NS15.DNSMADEEASY.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+   
+Domain Name: BORZOI.COM
+   Registry Domain ID: 2849604678_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.namebright.com
+   Registrar URL: http://www.DropCatch1303.com
+   Updated Date: 2025-12-12T13:35:53Z
+   Creation Date: 2024-01-25T19:38:10Z
+   Registry Expiry Date: 2027-01-25T19:38:10Z
+   Registrar: DropCatch.com 1303 LLC
+   Registrar IANA ID: 3512
+   Registrar Abuse Contact Email: support@namebright.com
+   Registrar Abuse Contact Phone: 17204960020
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Name Server: NS1.SEDOPARKING.COM
+   Name Server: NS2.SEDOPARKING.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+   
+Domain Name: FACE.COM
+   Registry Domain ID: 60485_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.uniregistrar.com
+   Registrar URL: http://www.uniregistry.com
+   Updated Date: 2023-11-02T22:09:51Z
+   Creation Date: 1994-02-25T05:00:00Z
+   Registry Expiry Date: 2029-02-26T05:00:00Z
+   Registrar: GoDaddy Online Services Cayman Islands Ltd.
+   Registrar IANA ID: 1659
+   Registrar Abuse Contact Email: abuse@uniregistry.com
+   Registrar Abuse Contact Phone: +1 4805058800
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Name Server: NS59.DOMAINCONTROL.COM
+   Name Server: NS60.DOMAINCONTROL.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+   
+Domain Name: POKEMON.COM
+   Registry Domain ID: 2673055_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.corporatedomains.com
+   Registrar URL: http://cscdbs.com
+   Updated Date: 2025-01-30T22:02:19Z
+   Creation Date: 1998-01-08T05:00:00Z
+   Registry Expiry Date: 2026-01-07T05:00:00Z
+   Registrar: CSC Corporate Domains, Inc.
+   Registrar IANA ID: 299
+   Registrar Abuse Contact Email: domainabuse@cscglobal.com
+   Registrar Abuse Contact Phone: 8887802723
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS-1264.AWSDNS-30.ORG
+   Name Server: NS-1710.AWSDNS-21.CO.UK
+   Name Server: NS-324.AWSDNS-40.COM
+   Name Server: NS-677.AWSDNS-20.NET
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+   
+Domain Name: MILTON.COM
+   Registry Domain ID: 586043_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.godaddy.com
+   Registrar URL: http://www.godaddy.com
+   Updated Date: 2025-01-28T22:32:09Z
+   Creation Date: 1995-08-17T04:00:00Z
+   Registry Expiry Date: 2029-08-16T04:00:00Z
+   Registrar: GoDaddy.com, LLC
+   Registrar IANA ID: 146
+   Registrar Abuse Contact Email: abuse@godaddy.com
+   Registrar Abuse Contact Phone: 480-624-2505
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Name Server: NS07.DOMAINCONTROL.COM
+   Name Server: NS08.DOMAINCONTROL.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
