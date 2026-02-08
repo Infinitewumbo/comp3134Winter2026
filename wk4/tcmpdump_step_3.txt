@@ -1,0 +1,22 @@
+root@comp3134-Winter2026:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:39:13.308085 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 3800653218:3800653406, ack 3358486286, win 472, length 188
+E.....@.@.......H'M.......]...o.P....o..
+B......(.. oz.g......D..+OnHUQ.+...R1...75..C....;......8E.".9...=....5n......a"J.@...,........a.C_.`...M......1*..;i..5R.IZ.&\..LP...5xV%x.m.;x[...U.......\.......^.a....Ia.C.--..4.p.W.P
+21:39:13.316156 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 188, win 252, length 0
+E..(.e@.x...H'M...........o...^^P.............
+21:39:13.316157 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 188, win 252, length 36
+E..L.f@.x...H'M...........o...^^P........'.%.....O..A....5!2,...R..eRw......
+21:39:13.316375 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 188:224, ack 37, win 472, length 36
+E..L..@.@..M....H'M.......^^..o2P.........pl..P......Z......e.T....D    ...n...
+21:39:13.344244 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 224, win 252, length 36
+E..L.g@.x...H'M...........o2..^.P....,..V.f......'g...@......4\...x@.3.MI...
+21:39:13.344402 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 224:260, ack 73, win 472, length 36
+E..L..@.@..L....H'M.......^...oVP..........#..V.....^uV.M6v/:pb.L.. ..Dt|.|.
+21:39:13.374470 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 73:109, ack 260, win 252, length 36
+E..L.h@.x...H'M...........oV..^.P...........m.\s;K\.........%s.n .I....M..(.
+21:39:13.374662 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 260:296, ack 109, win 472, length 36
+E..L..@.@..K....H'M.......^...ozP.......9>'^..Q?...m....        .s..........#...@ZX
+^Z
+[2]+  Stopped                 tcpdump -A -i eth0

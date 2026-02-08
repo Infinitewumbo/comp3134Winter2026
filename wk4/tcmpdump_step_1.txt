@@ -1,0 +1,20 @@
+root@comp3134-Winter2026:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:34:02.628249 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 3800623818:3800624006, ack 3358461046, win 472, length 188
+21:34:02.633117 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 0, win 255, length 36
+21:34:02.633667 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 188:224, ack 37, win 472, length 36
+21:34:02.643075 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 224, win 254, length 0
+21:34:02.667080 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 224, win 254, length 36
+21:34:02.667324 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 224:260, ack 73, win 472, length 36
+21:34:02.694512 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 73:109, ack 260, win 254, length 36
+21:34:02.694729 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 260:296, ack 109, win 472, length 36
+21:34:02.725238 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 109:145, ack 296, win 254, length 36
+21:34:02.725438 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 296:332, ack 145, win 472, length 36
+21:34:02.726541 IP comp3134-Winter2026.32799 > 67.207.67.3.domain: 64825+ [1au] PTR? 253.77.39.72.in-addr.arpa. (54)
+21:34:02.726640 IP comp3134-Winter2026.33147 > 67.207.67.3.domain: 11776+ [1au] PTR? 253.77.39.72.in-addr.arpa. (54)
+21:34:02.740195 IP 67.207.67.3.domain > comp3134-Winter2026.32799: 64825 1/0/1 PTR d72-39-77-253.home1.cgocable.net. (100)
+21:34:02.740400 IP 67.207.67.3.domain > comp3134-Winter2026.33147: 11776 1/0/1 PTR d72-39-77-253.home1.cgocable.net. (100)
+21:34:02.740889 IP comp3134-Winter2026.44827 > 67.207.67.3.domain: 8355+ [1au] PTR? 175.157.197.138.in-addr.arpa. (57)
+^C^Z
+[1]+  Stopped                 tcpdump -i eth0

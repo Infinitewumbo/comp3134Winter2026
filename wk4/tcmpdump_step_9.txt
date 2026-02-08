@@ -1,0 +1,151 @@
+root@comp3134-Winter2026:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:46:29.599392 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 3836665550, win 2047, length 0
+21:46:29.601026 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 1:189, ack 0, win 4589, length 188
+21:46:29.613444 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 0:36, ack 189, win 2046, length 36
+21:46:29.613645 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 189:225, ack 36, win 4589, length 36
+21:46:29.637415 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 36:72, ack 225, win 2046, length 36
+21:46:29.637608 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 225:261, ack 72, win 4589, length 36
+21:46:29.667765 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 72:108, ack 261, win 2046, length 36
+21:46:29.667947 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 261:297, ack 108, win 4589, length 36
+21:46:29.699640 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 108:144, ack 297, win 2045, length 36
+21:46:29.699848 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 297:333, ack 144, win 4589, length 36
+21:46:29.704911 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [S], seq 3307579126, win 64240, options [mss 1460,sackOK,TS val 2405292513 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+21:46:29.705246 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 333:1753, ack 144, win 4589, length 1420
+21:46:29.705600 IP 67.207.67.3.domain > comp3134-Winter2026.33688: Flags [S.], seq 188595204, ack 3307579127, win 65160, options [mss 1460,sackOK,TS val 3443672885 ecr 2405292513,nop,wscale 10], length 0
+21:46:29.705623 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2405292514 ecr 3443672885], length 0
+21:46:29.705643 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [P.], seq 1:46, ack 1, win 502, options [nop,nop,TS val 2405292514 ecr 3443672885], length 45 21986+ PTR? 253.77.39.72.in-addr.arpa. (43)
+21:46:29.705877 IP 67.207.67.3.domain > comp3134-Winter2026.33688: Flags [.], ack 46, win 64, options [nop,nop,TS val 3443672885 ecr 2405292514], length 0
+21:46:29.708854 IP 67.207.67.3.domain > comp3134-Winter2026.33688: Flags [P.], seq 1:92, ack 46, win 64, options [nop,nop,TS val 3443672888 ecr 2405292514], length 91 21986 1/0/0 PTR d72-39-77-253.home1.cgocable.net. (89)
+21:46:29.708895 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [.], ack 92, win 502, options [nop,nop,TS val 2405292517 ecr 3443672888], length 0
+21:46:29.715558 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 1753, win 2047, length 0
+21:46:29.729561 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 144:180, ack 1753, win 2047, length 36
+21:46:29.729766 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 1753:1789, ack 180, win 4589, length 36
+21:46:29.761606 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 180:216, ack 1789, win 2047, length 36
+21:46:29.761777 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 1789:1825, ack 216, win 4589, length 36
+21:46:29.791422 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 216:252, ack 1825, win 2047, length 36
+21:46:29.791595 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 1825:1861, ack 252, win 4589, length 36
+21:46:29.806639 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [P.], seq 46:90, ack 92, win 502, options [nop,nop,TS val 2405292615 ecr 3443672888], length 44 36127+ PTR? 3.67.207.67.in-addr.arpa. (42)
+21:46:29.809623 IP 67.207.67.3.domain > comp3134-Winter2026.33688: Flags [P.], seq 92:203, ack 90, win 64, options [nop,nop,TS val 3443672989 ecr 2405292615], length 111 36127 NXDomain 0/1/0 (109)
+21:46:29.809664 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [.], ack 203, win 502, options [nop,nop,TS val 2405292618 ecr 3443672989], length 0
+21:46:29.810326 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 1861:2097, ack 252, win 4589, length 236
+21:46:29.810709 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 2097:4365, ack 252, win 4589, length 2268
+21:46:29.819449 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 2097, win 2046, length 0
+21:46:29.821261 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 252:288, ack 2097, win 2046, length 36
+21:46:29.821261 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 3557, win 2047, length 0
+21:46:29.821432 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 4365:4401, ack 288, win 4589, length 36
+21:46:29.825360 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 4365, win 2044, length 0
+21:46:29.851525 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 288:324, ack 4401, win 2044, length 36
+21:46:29.851697 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 4401:4437, ack 324, win 4589, length 36
+21:46:29.883584 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 324:360, ack 4437, win 2044, length 36
+21:46:29.883752 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 4437:4473, ack 360, win 4589, length 36
+21:46:29.909991 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 4473:4725, ack 360, win 4589, length 252
+21:46:29.910050 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 4725:5409, ack 360, win 4589, length 684
+21:46:29.910326 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 5409:6677, ack 360, win 4589, length 1268
+21:46:29.911528 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 360:396, ack 4473, win 2044, length 36
+21:46:29.911657 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 6677:6713, ack 396, win 4589, length 36
+21:46:29.919261 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 5409, win 2047, length 0
+21:46:29.919261 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 6713, win 2042, length 0
+21:46:29.943571 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 396:432, ack 6713, win 2042, length 36
+21:46:29.943775 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 6713:6749, ack 432, win 4589, length 36
+21:46:29.973416 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 432:468, ack 6749, win 2042, length 36
+21:46:29.973643 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 6749:6785, ack 468, win 4589, length 36
+21:46:30.005547 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 468:504, ack 6785, win 2042, length 36
+21:46:30.005726 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 6785:6821, ack 504, win 4589, length 36
+21:46:30.014355 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 6821:8673, ack 504, win 4589, length 1852
+21:46:30.025386 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 8281, win 2047, length 0
+21:46:30.025386 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 504:540, ack 8673, win 2046, length 36
+21:46:30.025648 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 8673:8709, ack 540, win 4589, length 36
+21:46:30.051614 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 540:576, ack 8709, win 2046, length 36
+21:46:30.051776 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 8709:8745, ack 576, win 4589, length 36
+21:46:30.081373 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 576:612, ack 8745, win 2046, length 36
+21:46:30.081623 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 8745:8781, ack 612, win 4589, length 36
+21:46:30.107515 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 612:648, ack 8781, win 2046, length 36
+21:46:30.107719 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 8781:8817, ack 648, win 4589, length 36
+21:46:30.117898 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 8817:8997, ack 648, win 4589, length 180
+21:46:30.118138 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 8997:10289, ack 648, win 4589, length 1292
+21:46:30.127509 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 8997, win 2045, length 0
+21:46:30.143343 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 648:684, ack 10289, win 2047, length 36
+21:46:30.143548 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 10289:10325, ack 684, win 4589, length 36
+21:46:30.151771 IP 209.38.32.97.53748 > comp3134-Winter2026.ssh: Flags [P.], seq 1625147646:1625147730, ack 3353234131, win 501, options [nop,nop,TS val 1132737770 ecr 821717047], length 84
+21:46:30.153098 IP comp3134-Winter2026.ssh > 209.38.32.97.53748: Flags [P.], seq 1:69, ack 84, win 533, options [nop,nop,TS val 821723965 ecr 1132737770], length 68
+21:46:30.173562 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 684:720, ack 10325, win 2047, length 36
+21:46:30.173762 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 10325:10361, ack 720, win 4589, length 36
+21:46:30.203832 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 720:756, ack 10361, win 2047, length 36
+21:46:30.204056 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 10361:10397, ack 756, win 4589, length 36
+21:46:30.222700 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [P.], seq 90:135, ack 203, win 502, options [nop,nop,TS val 2405293031 ecr 3443672989], length 45 44352+ PTR? 97.32.38.209.in-addr.arpa. (43)
+21:46:30.222817 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 10397:11137, ack 756, win 4589, length 740
+21:46:30.223171 IP 67.207.67.3.domain > comp3134-Winter2026.33688: Flags [P.], seq 203:315, ack 135, win 64, options [nop,nop,TS val 3443673402 ecr 2405293031], length 112 44352 NXDomain 0/1/0 (110)
+21:46:30.223200 IP comp3134-Winter2026.33688 > 67.207.67.3.domain: Flags [.], ack 315, win 502, options [nop,nop,TS val 2405293031 ecr 3443673402], length 0
+21:46:30.223650 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 11137:11365, ack 756, win 4589, length 228
+21:46:30.223821 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 11365:12137, ack 756, win 4589, length 772
+21:46:30.233571 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 11137, win 2044, length 0
+21:46:30.235348 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 756:792, ack 11137, win 2044, length 36
+21:46:30.235348 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 12137, win 2047, length 0
+21:46:30.235511 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 12137:12173, ack 792, win 4589, length 36
+21:46:30.258437 IP 209.38.32.97.53748 > comp3134-Winter2026.ssh: Flags [.], ack 69, win 501, options [nop,nop,TS val 1132737880 ecr 821723965], length 0
+21:46:30.265617 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 792:828, ack 12173, win 2047, length 36
+21:46:30.265820 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 12173:12209, ack 828, win 4589, length 36
+21:46:30.297276 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 828:864, ack 12209, win 2047, length 36
+21:46:30.297484 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 12209:12245, ack 864, win 4589, length 36
+21:46:30.325935 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 12245:12497, ack 864, win 4589, length 252
+21:46:30.326410 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 12497:13725, ack 864, win 4589, length 1228
+21:46:30.326599 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 13725:14489, ack 864, win 4589, length 764
+21:46:30.326666 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 14489:14669, ack 864, win 4589, length 180
+21:46:30.327622 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 864:900, ack 12245, win 2047, length 36
+21:46:30.327718 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 14669:14705, ack 900, win 4589, length 36
+21:46:30.337397 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 13725, win 2047, length 0
+21:46:30.339221 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 14669, win 2044, length 0
+21:46:30.359602 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 900:936, ack 14705, win 2044, length 36
+21:46:30.359787 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 14705:14741, ack 936, win 4589, length 36
+21:46:30.389349 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 936:972, ack 14741, win 2044, length 36
+21:46:30.389518 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 14741:14777, ack 972, win 4589, length 36
+21:46:30.419327 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 972:1008, ack 14777, win 2043, length 36
+21:46:30.419505 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 14777:14813, ack 1008, win 4589, length 36
+21:46:30.430066 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 14813:14993, ack 1008, win 4589, length 180
+21:46:30.430371 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 14993:15605, ack 1008, win 4589, length 612
+21:46:30.430626 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 15605:16897, ack 1008, win 4589, length 1292
+21:46:30.439952 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 14993, win 2043, length 0
+21:46:30.441396 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1008:1044, ack 14993, win 2043, length 36
+21:46:30.441397 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 15605, win 2047, length 0
+21:46:30.441593 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 16897:16933, ack 1044, win 4589, length 36
+21:46:30.445606 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 16897, win 2042, length 0
+21:46:30.465290 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1044:1080, ack 16933, win 2042, length 36
+21:46:30.465461 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 16933:16969, ack 1080, win 4589, length 36
+21:46:30.497336 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1080:1116, ack 16969, win 2042, length 36
+21:46:30.497504 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 16969:17005, ack 1116, win 4589, length 36
+21:46:30.525345 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1116:1152, ack 17005, win 2042, length 36
+21:46:30.525519 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 17005:17041, ack 1152, win 4589, length 36
+21:46:30.533847 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 17041:17221, ack 1152, win 4589, length 180
+21:46:30.534093 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 17221:18505, ack 1152, win 4589, length 1284
+21:46:30.534330 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 18505:18837, ack 1152, win 4589, length 332
+21:46:30.534369 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 18837:19161, ack 1152, win 4589, length 324
+21:46:30.539801 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 17221, win 2047, length 0
+21:46:30.543393 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 19161, win 2047, length 0
+21:46:30.559205 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1152:1188, ack 19161, win 2047, length 36
+21:46:30.559372 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 19161:19197, ack 1188, win 4589, length 36
+21:46:30.589564 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1188:1224, ack 19197, win 2047, length 36
+21:46:30.589752 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 19197:19233, ack 1224, win 4589, length 36
+21:46:30.619326 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1224:1260, ack 19233, win 2047, length 36
+21:46:30.619501 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 19233:19269, ack 1260, win 4589, length 36
+21:46:30.638087 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 19269:21009, ack 1260, win 4589, length 1740
+21:46:30.647272 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 21009, win 2047, length 0
+21:46:30.649569 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1260:1296, ack 21009, win 2047, length 36
+21:46:30.649724 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 21009:21045, ack 1296, win 4589, length 36
+21:46:30.681520 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1296:1332, ack 21045, win 2047, length 36
+21:46:30.681672 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 21045:21081, ack 1332, win 4589, length 36
+21:46:30.713316 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1332:1368, ack 21081, win 2047, length 36
+21:46:30.713474 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 21081:21117, ack 1368, win 4589, length 36
+21:46:30.741895 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 21117:22297, ack 1368, win 4589, length 1180
+21:46:30.743418 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1368:1404, ack 21117, win 2047, length 36
+21:46:30.743623 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 22297:22333, ack 1404, win 4589, length 36
+21:46:30.753539 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [.], ack 22333, win 2042, length 0
+21:46:30.773257 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1404:1440, ack 22333, win 2042, length 36
+21:46:30.773389 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 22333:22369, ack 1440, win 4589, length 36
+21:46:30.803524 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1440:1476, ack 22369, win 2042, length 36
+21:46:30.803712 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 22369:22405, ack 1476, win 4589, length 36
+21:46:30.835282 IP d72-39-77-253.home1.cgocable.net.49649 > comp3134-Winter2026.ssh: Flags [P.], seq 1476:1512, ack 22405, win 2042, length 36
+21:46:30.835458 IP comp3134-Winter2026.ssh > d72-39-77-253.home1.cgocable.net.49649: Flags [P.], seq 22405:22441, ack 1512, win 4589, length 36
+^Z
+[9]+  Stopped                 tcpdump -i eth0 tcp
