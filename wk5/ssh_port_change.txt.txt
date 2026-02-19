@@ -1,0 +1,3 @@
+sudo service ssh restart
+ ssh root@138.197.157.175 -p 2222
+
